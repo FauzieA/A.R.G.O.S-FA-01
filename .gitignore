@@ -1,0 +1,12 @@
+# Ignore Mac system files
+.DS_Store
+
+# Ignore Node Modules (Dashboard)
+dashboard/node_modules/
+dashboard/build/
+dashboard/.env
+
+# Ignore Arduino/PlatformIO build files (Firmware)
+firmware/.pio/
+**/*.bin
+**/*.elf
